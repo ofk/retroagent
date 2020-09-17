@@ -2,7 +2,7 @@
 
 require 'retroagent/version'
 
-module Retroagent
+module RetroAgent
   class Error < StandardError; end
   # Your code goes here...
 end

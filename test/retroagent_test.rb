@@ -2,9 +2,9 @@
 
 require 'test_helper'
 
-class RetroagentTest < Minitest::Test
+class RetroAgentTest < Minitest::Test
   def test_that_it_has_a_version_number
-    refute { ::Retroagent::VERSION.nil? }
+    refute { ::RetroAgent::VERSION.nil? }
   end
 
   def test_it_does_something_useful

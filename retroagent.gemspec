@@ -6,7 +6,7 @@ require 'retroagent/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'retroagent'
-  spec.version       = Retroagent::VERSION
+  spec.version       = RetroAgent::VERSION
   spec.authors       = ['ofk']
   spec.email         = ['ofkjpn+github@gmail.com']
 

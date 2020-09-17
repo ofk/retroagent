@@ -1,4 +1,6 @@
-require "retroagent/version"
+# frozen_string_literal: true
+
+require 'retroagent/version'
 
 module Retroagent
   class Error < StandardError; end

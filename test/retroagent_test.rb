@@ -4,10 +4,10 @@ require 'test_helper'
 
 class RetroagentTest < Minitest::Test
   def test_that_it_has_a_version_number
-    refute_nil ::Retroagent::VERSION
+    refute { ::Retroagent::VERSION.nil? }
   end
 
   def test_it_does_something_useful
-    assert false
+    assert { false }
   end
 end

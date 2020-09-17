@@ -2,7 +2,7 @@
 
 require 'nkf'
 
-module RetroAgent
+class RetroAgent
   module UTF8
     module_function
 

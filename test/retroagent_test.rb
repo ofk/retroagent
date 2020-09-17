@@ -3,8 +3,16 @@
 require 'test_helper'
 
 class RetroAgentTest < Minitest::Test
+  def new_agent
+    RetroAgent.new
+  end
+
   def test_that_it_has_a_version_number
     refute { ::RetroAgent::VERSION.nil? }
+  end
+
+  def test_self
+    assert { new_agent }
   end
 
   def test_utf8_encode
